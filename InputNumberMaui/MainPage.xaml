@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="InputNumberMaui.MainPage"
+    Title="Введення числа">
+
+    <VerticalStackLayout
+        Padding="20"
+        Spacing="15"
+        VerticalOptions="Center">
+
+       
+        <Entry
+            x:Name="NumberEntry"
+            Placeholder="Введіть число"
+            Keyboard="Numeric" />
+
+        
+        <Button
+            Text="Показати"
+            Clicked="OnShowClicked"
+            BackgroundColor="#4CAF50"
+            TextColor="White" 
+            CornerRadius="12"/>
+
+    </VerticalStackLayout>
+</ContentPage>
+
